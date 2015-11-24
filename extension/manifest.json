@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "osx-tumblr-shift-r-reblogger",
+  "description": "",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.tumblr.com/dashboard/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "shiftRReblogger.js"
+  ],
+  "permissions": [
+    "https://www.tumblr.com/"
+  ]
+}
