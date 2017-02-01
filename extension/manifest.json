@@ -1,12 +1,13 @@
 {
   "manifest_version": 2,
   "name": "osx-tumblr-shift-r-reblogger",
-  "description": "",
-  "version": "0.0.1",
+  "description": "MacOS用 TumblrのキーボードショートカットでファストリブログをShift + Rでできるようにするやつ",
+  "version": "0.0.2",
   "content_scripts": [
     {
       "matches": ["https://www.tumblr.com/dashboard/*"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css": ["adblock.css"]
     }
   ],
   "web_accessible_resources": [

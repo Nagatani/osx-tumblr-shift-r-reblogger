@@ -1,0 +1,9 @@
+.sidebar-ad-container .sidebar-ad,
+.standalone-ad-container {
+    height: 0px;
+    max-height: 0px;
+    margin: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: none;
+}
